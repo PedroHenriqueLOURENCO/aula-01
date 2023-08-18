@@ -17,7 +17,7 @@ export default function App() {
 
     <ul>
       {time.map((item,key) =>
-      <li> key={key}>{item} </li>
+      <li key={key}>{item} </li>
       )}
     </ul>
 
